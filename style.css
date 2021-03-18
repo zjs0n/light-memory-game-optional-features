@@ -1,0 +1,102 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color:white;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden {
+  display: none;
+}
+#image1 {
+  opacity: 0;
+}
+/*#button1 img:active {
+  /*background: lightgreen;
+  visibility:visible;
+}
+#button1 img:active, #button1 img.lit {
+  visibility:visible;
+}*/
+#image1:active, #image1.lit {
+  opacity:1;
+}
+
+/*#button2:active {
+  background: lightblue;
+}
+#button2:active, #button2.lit {
+  background: blue;
+}*/
+#image2 {
+  opacity: 0;
+}
+#image2:active, #image2.lit {
+  opacity: 1;
+}
+/*#button3:active {
+  background: pink;
+}
+#button3:active, #button3.lit {
+  background: red;
+}*/
+#image3 {
+  opacity:0
+}
+#image3:active, #image3.lit {
+  opacity:1
+}
+/*#button4:active {
+  background: lightyellow;
+}
+#button4:active, #button4.lit {
+  background: yellow;
+}*/
+#image4 {
+  opacity:0;
+}
+#image4:active, #image4.lit {
+  opacity:1
+}
+
+/*#button5:active {
+  background: lightcyan;
+}
+#button5:active, #button5.lit {
+  background: cyan;
+}*/
+#image5 {
+  opacity:0;
+}
+#image5:active, #image5.lit {
+  opacity:1;
+}
+/*#button6:active {
+  background: lightgray;
+}
+#button6:active, #button6.lit {
+  background: gray;
+}*/
+#image6 {
+  opacity:0;
+}
+#image6:active, #image6.lit {
+  opacity:1
+}
